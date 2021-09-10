@@ -96,4 +96,7 @@ workBoxes?.forEach((box)=>{
     })
 })
 
-
+// mail
+function sendMail() {
+    window.open('mailto:turkansh@code.edu.az?subject=subject&body=body');
+}
