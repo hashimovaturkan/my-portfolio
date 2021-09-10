@@ -40,13 +40,14 @@
 
 
 .about{
-    padding: 8rem 0;
+    padding-top: 8rem;
     &__content{
         padding-top: 7rem
     }
 }
 
 .skills{
+    padding-top: 8rem;
     &__wrapper{
         @include flexbox;
         flex-wrap: wrap;
@@ -140,4 +141,40 @@
 
 .contact{
     padding: 8rem 0;
+}
+
+
+@media (max-width: 991.98px) { 
+    .hero{
+        &__img{
+            max-width: 50%;
+        }
+        &__img-box{
+            @include flexbox;
+        }
+        &__img-shadow{
+            right: 10%;
+            bottom: 0px;
+            width: 80%;
+            height: 100%;
+        }
+        
+    }
+    
+}
+@media (max-width: 480px) {
+    .hero{
+        &__img{
+            max-width: 90%;
+            border-radius: 4rem;
+        }
+        &__img-box{
+            @include flexbox;
+        }
+        &__img-shadow{
+            border-radius: 5rem;
+            width: 100%;
+            right: 0%;
+        }
+    }
 }

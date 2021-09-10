@@ -55,6 +55,11 @@ menuInput.addEventListener("click",(e)=>{
     }
 })
 
+document.querySelector(".menu__list-bigger").addEventListener("click",()=>{
+    menuBig.style.left="-100%";
+    menuBig.classList.remove("opening");
+})
+
 
 
 

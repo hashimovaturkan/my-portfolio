@@ -39,6 +39,7 @@ textarea.form-control {
 }
 
 .info-wrap{
+	padding: 1rem;
 	background-color: $blue;
 	h3{
 		color: $white;
@@ -117,3 +118,16 @@ textarea.form-control {
 }
 
 
+
+@media (max-width: 991.98px) { 
+    .info-wrap{
+		padding: 1.5rem;
+	}
+    
+}
+@media (max-width: 768px) { 
+    .info-wrap{
+		padding: 2rem;
+	}
+    
+}

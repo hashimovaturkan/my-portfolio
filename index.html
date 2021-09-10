@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="custom-container">
             <div class="header__wrapper">
                 <div class="menu">
                     <label class="menu__btn" for="menu">
@@ -22,7 +22,7 @@
                         <ul class="menu__list">
                             <li class="menu__list-item"><a class="menu__list-link" href="#">Ana Səhifə</a></li>
                             <li class="menu__list-item"><a class="menu__list-link" href="#about">Haqqımda</a></li>
-                            <li class="menu__list-item"><a class="menu__list-link" href="#about">Bacarıqlarım</a></li>
+                            <li class="menu__list-item"><a class="menu__list-link" href="#skills">Bacarıqlarım</a></li>
                             <li class="menu__list-item"><a class="menu__list-link" href="#work">İşlərim</a></li>
                             <li class="menu__list-item"><a class="menu__list-link" href="#contact">Əlaqə</a></li>
                         </ul>
@@ -54,7 +54,7 @@
                         <ul class="menu__list-bigger">
                             <li class="menu__item-bigger"><a class="menu__link-bigger" href="#">Ana Səhifə</a></li>
                             <li class="menu__item-bigger"><a class="menu__link-bigger" href="#about">Haqqımda</a></li>
-                            <li class="menu__item-bigger"><a class="menu__link-bigger" href="#about">Bacarıqlarım</a></li>
+                            <li class="menu__item-bigger"><a class="menu__link-bigger" href="#skills">Bacarıqlarım</a></li>
                             <li class="menu__item-bigger"><a class="menu__link-bigger" href="#work">İşlərim</a></li>
                             <li class="menu__item-bigger"><a class="menu__link-bigger" href="#contact">Əlaqə</a></li>
                         </ul>
@@ -95,7 +95,7 @@
     </header>
     <main>
         <section class="hero">
-            <div class="container">
+            <div class="custom-container">
                 <div class="hero__wrapper">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -116,7 +116,7 @@
                                     <h2>Software Developer</h2>
                                 </div>
                             </div>
-                            <a href="#" download>
+                            <a href="./assets/documents/Hashimova Turkan Cv.pdf" download>
                                 <button class="btn__main">
                                     Cv'ni yüklə
                                     <div class="btn__main__horizontal"></div>
@@ -129,7 +129,7 @@
             </div>
         </section>
         <section class="about" id="about">
-            <div class="container">
+            <div class="custom-container">
                 <h2 class="title"><span data-hover-item="about">Haqqımda</span></h2>
                 <div class="about__content" data-hover-in="about">
                     <div class="row">
@@ -187,8 +187,8 @@
                 </div>
             </div>
         </section>
-        <section class="skills">
-            <div class="container">
+        <section class="skills" id="skills">
+            <div class="custom-container">
                 <h2 class="title"><span data-hover-item="skill">Bacarıqlarım</span></h2>
                 <div class="skills__wrapper" data-hover-in="skill">
                     <div class="skill">
@@ -327,7 +327,7 @@
             </div>
         </section>
         <section class="other-skills">
-            <div class="container">
+            <div class="custom-container">
                 <div class="accordion">
                     <div class="accordion__item">
                         <img class="accordion__img" src="./assets/images/ilya-pavlov-OqtafYT5kTw-unsplash (1).jpg">
@@ -353,7 +353,7 @@
             </div>
         </section>
         <section class="quality">
-            <div class="container">
+            <div class="custom-container">
                 <ul class="list">
                     <li class="list__item">
                         <span>
@@ -464,7 +464,7 @@
             </div>
         </section>
         <section class="language">
-            <div class="container-fluid">
+            <div class="custom-container">
                 <h2 class="title title--little"><span >Dil Biliklərim</span></h2>
                 <div class="language__content" >
                     <div class="row">
@@ -551,8 +551,8 @@
                 </div>
             </div>
         </section>
-        <section class="work">
-            <div class="container">
+        <section class="work" id="work">
+            <div class="custom-container">
                 <h2 class="title"><span data-hover-item="work">Işlərim</span></h2>
                 <div class="work__wrapper" data-hover-in="work">
                     <div class="row">
@@ -569,16 +569,15 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <h2 class="title"><span data-hover-item="contact">Əlaqə</span></h2>
-            <div class="container">
+            <div class="custom-container">
                 <div class="row justify-content-center form__box" data-hover-in="contact">
                     <div class="col-lg-10 col-md-12">
                         <div class="wrapper">
                             <div class="row no-gutters">
                                 <div class="col-md-7 d-flex align-items-stretch">
                                     <div class="contact-wrap w-100 p-md-5 p-4">
-                                        <h3 class="mb-4">Əlaqə üçün:</h3>
                                         <div id="form-message-warning" class="mb-4"></div> 
                                         <form method="POST" id="contactForm" name="contactForm" action="mailto:turkansh@code.edu.az" enctype="text/plain">
                                             <div class="row">
@@ -608,8 +607,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-5 d-flex align-items-stretch">
-                                    <div class="info-wrap w-100 p-lg-5 p-4">
-                                        <h3 class="mb-4 mt-md-4">Contact us</h3>
+                                    <div class="info-wrap w-100 ">
+                                        <h3 class="mb-4 mt-md-4">Əlaqə üçün</h3>
                                 <div class="dbox w-100 d-flex align-items-start">
                                     <div class="icon d-flex align-items-center justify-content-center me-5">
                                         <svg version="1.1" width="24" height="24" fill="white" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -674,7 +673,7 @@
         </section>
     </main>
     <footer>
-        <div class="container__fluid">
+        <div class="custom-container__fluid">
             <div class="footer__wrapper">
                 2021-2022 Copyright
             </div>
