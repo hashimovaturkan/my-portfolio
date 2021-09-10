@@ -76,3 +76,19 @@ hoverItems.forEach((item)=>{
     
 })
 
+
+
+//work
+const workBoxes = document.querySelectorAll(".work__box");
+workBoxes?.forEach((box)=>{
+    box.addEventListener("mouseover",()=>{
+        const workClose = box.querySelector(".work__close");
+        workClose.style.left="0%";
+    })
+    box.addEventListener("mouseout",()=>{
+        const workClose = box.querySelector(".work__close");
+        workClose.style.left="-100%";
+    })
+})
+
+
