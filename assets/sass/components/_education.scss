@@ -61,6 +61,12 @@
 
 
 @media (max-width: 480px) {
+    .education{
+        &:not(:first-child){
+            margin-top: 4rem;
+        }
+        
+    }
     .education__icon-wrapper{
         justify-content: flex-start;
     }
