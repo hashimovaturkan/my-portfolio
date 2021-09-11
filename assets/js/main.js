@@ -56,8 +56,7 @@ menuInput.addEventListener("click",(e)=>{
 })
 
 document.querySelector(".menu__list-bigger").addEventListener("click",()=>{
-    menuBig.style.left="-100%";
-    menuBig.classList.remove("opening");
+    menuInput.click();
 })
 
 
@@ -72,6 +71,7 @@ hoverItems.forEach((item)=>{
     item.addEventListener("mouseover",()=>{
         const HoverIt = document.querySelector(`[data-hover-item=${item.getAttribute('data-hover-in')}]`);
         HoverIt.style.backgroundSize="100%";
+
     })
     item.addEventListener("mouseout",()=>{
         const HoverIt = document.querySelector(`[data-hover-item=${item.getAttribute('data-hover-in')}]`);

@@ -62,8 +62,8 @@
 
 @media (max-width: 480px) {
     .education{
-        &:not(:first-child){
-            margin-top: 4rem;
+        &:last-child{
+            margin-bottom: 4rem;
         }
         
     }
