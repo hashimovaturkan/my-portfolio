@@ -6709,12 +6709,16 @@ textarea.form-control {
   .work__box {
     position: relative;
     width: 100%;
-    background: url("../images/back.png");
+    height: 26rem;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     cursor: pointer; }
+    .work__box--1 {
+      background: url("../images/back.png"); }
+    .work__box--2 {
+      background: url("../images/riodeback.png"); }
   .work__img {
     margin: 4rem;
     width: 80%; }

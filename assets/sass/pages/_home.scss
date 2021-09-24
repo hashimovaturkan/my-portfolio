@@ -103,10 +103,16 @@
     &__box{
         position: relative;
         width: 100%;
-        background: url("../images/back.png");
+        height: 26rem;
         @include flexbox;
         overflow: hidden;
         cursor: pointer;
+        &--1{
+            background: url("../images/back.png");
+        }
+        &--2{
+            background: url("../images/riodeback.png");
+        }
     }
     &__img{
         margin: 4rem;
